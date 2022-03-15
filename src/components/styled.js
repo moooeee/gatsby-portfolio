@@ -97,9 +97,6 @@ export const Main = styled.main`
       transform: translate(0%, 100%) matrix(1, 0, 0, 1, 0, 0);
       overflow: hidden;
       animation: revealText 1s ease forwards;
-      /* text-shadow: 3px 3px 1px var(--color-primary); */
-      /* text-shadow: var(--shadow-x) var(--shadow-y) 0px var(--color-primary); */
-      /* text-shadow: var(--shadow-x) var(--shadow-y) 0px #5468ff; */
 
       &:nth-child(2) {
         margin-top: -30px;
@@ -118,13 +115,10 @@ export const Main = styled.main`
     }
 
     h2 {
-      /* font-size: 30px; */
       font-size: 26px;
       margin: 0;
-      /* opacity: 0.8; */
       opacity: 0;
       font-weight: 100;
-      /* color: var(--color-primary); */
       animation: revealText 1s ease forwards;
 
       &:nth-child(2) {
@@ -140,7 +134,6 @@ export const Main = styled.main`
 
     &:nth-child(2) {
       margin-top: -40px;
-      /* margin-top: -20px; */
 
       h1 {
         animation-delay: 0.4s;
@@ -386,17 +379,7 @@ export const ProjectItem = styled.div`
     > div > p {
       margin-left: 0;
     }
-
-    /* .outer {
-      max-width: 70%;
-    } */
   }
-
-  /* @media (max-width: 600px) {
-    .outer {
-      max-width: 100%;
-    }
-  } */
 `
 
 export const ProjectHeader = styled.div`

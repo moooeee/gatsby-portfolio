@@ -4,11 +4,6 @@ const GlobalStyles = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-  :root {
-    --shadow-x: 3px;
-    --shadow-y: 3px;
-  }
-
   *, *:before, *:after {
     box-sizing: border-box;
   }
