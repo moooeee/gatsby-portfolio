@@ -53,7 +53,7 @@ function LanguageTag({ language }) {
         background: "rgb(127, 219, 202)",
         borderBottomRightRadius: "5px",
         borderBottomLeftRadius: "5px",
-        fontSize: "16px",
+        fontSize: "14px",
       }}
     >
       {language}

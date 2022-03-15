@@ -177,7 +177,7 @@ function IndexPage() {
             description="Gatby portfolio and blog platform, made ready for technical posts with a code snippets, text highlight and more"
             tags={["React", "Gatsby", "Styled Components", "MDX", "Netlify"]}
             image="blog-app.png"
-            githubURL="https://github.com/moooeee/Portfolio"
+            githubURL="https://github.com/moooeee/gatsby-portfolio"
             siteURL="moe-dev.netlify.app"
           />
         </ProjectsList>
