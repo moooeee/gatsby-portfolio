@@ -8,7 +8,6 @@ import Helmet from "react-helmet"
 import { H } from "../components/mdxComponents/mdx-styles"
 import CodeBlock from "../components/mdxComponents/codeBlock"
 import { FullBleed } from "../components/fullBleed"
-// import "../utils/typography.css"
 import ToggleNightMode from "../components/nightModeToggle"
 
 function PostLayout({ children }) {
@@ -55,7 +54,6 @@ function PostLayout({ children }) {
             image: Styled.image,
             blockquote: Styled.blockquote,
             em: Styled.em,
-            // pre: Styled.pre,
             code: CodeBlock,
             FullBleed: props => <FullBleed {...props} />,
           }}

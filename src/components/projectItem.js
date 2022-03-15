@@ -30,7 +30,7 @@ function ProjectItem({ name, description, tags, image, githubURL, siteURL }) {
           style={{ animationPlayState: play ? "running" : "paused" }}
           class="inner"
         >
-          <img src={`/images/${image}`} alt="some imaage" />
+          <img src={`/images2/${image}`} alt="some imaage" />
         </div>
       </div>
       <div>

@@ -34,39 +34,6 @@ function IndexPage() {
     threshold: 1,
   })
 
-  // const [theme, setTheme] = useTheme()
-  // const [theme, setTheme] = useLocalStorage("theme", "light")
-
-  // useEffect(() => {
-  //   document.body.className = theme
-  // }, [theme])
-
-  // useEffect(() => {
-  //   const header = headerRef.current
-  //   let shadowListener
-
-  //   if (header) {
-  //     shadowListener = header.addEventListener("mousemove", e => {
-  //       const width = headerRef.current.offsetWidth
-  //       const height = headerRef.current.offsetHeight
-  //       let x = e.pageX
-  //       let y = e.pageY
-  //       const xWalk = Math.round(((x / width) * 100) / 15 - 100 / 100)
-  //       const yWalk = Math.round(((y / height) * 100) / 15 - 100 / 100)
-  //       document.documentElement.style.setProperty("--shadow-x", xWalk + "px")
-  //       document.documentElement.style.setProperty("--shadow-y", yWalk + "px")
-  //     })
-  //   }
-
-  //   return () => {
-  //     if (shadowListener) {
-  //       window.removeEventListener("mousemove", shadowListener)
-  //     }
-  //   }
-  // }, [])
-
-  // return <p>Hello</p>
-
   return (
     <div>
       <GlobalStyles />
@@ -78,7 +45,7 @@ function IndexPage() {
         <link
           href="https://fonts.googleapis.com/css2?family=Merriweather"
           rel="stylesheet"
-        ></link>
+        />
       </Helmet>
       <Header ref={headerRef}>
         <Nav>

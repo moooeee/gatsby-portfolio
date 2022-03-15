@@ -31,9 +31,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        //   defaultLayout: {
-        //     default: require.resolve("./src/layouts/layout.js"),
-        //   },
         gatsbyRemarkPlugins: [
           {
             resolve: "gatsby-remark-images",
@@ -45,7 +42,6 @@ module.exports = {
                 "grid-column: 1 / -1; width: 100%; max-height: 60vh",
             },
           },
-          // "gatsby-remark-prismjs",
         ],
         plugins: [
           {
@@ -58,7 +54,6 @@ module.exports = {
                 "grid-column: 1 / -1; width: 100%; max-height: 60vh;",
             },
           },
-          // "gatsby-remark-prismjs",
         ],
       },
     },
@@ -70,8 +65,5 @@ module.exports = {
         path: `posts`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }

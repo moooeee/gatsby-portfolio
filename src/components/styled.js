@@ -49,7 +49,7 @@ export const Logo = styled.h2`
 export const Main = styled.main`
   max-width: 100vw;
   max-width: clamp(700px, 80vw, 1200px);
-  height: 80vh;
+  height: 500px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -587,4 +587,3 @@ export const Footer = styled.footer`
     }
   }
 `
-// text-shadow: -2px 0 #000,0 -2px #000,2px 0 #000,0 2px #000,2px 2px #000,-2px -2px #000,-2px 2px #000,2px -2px #000,calc(-1*var(--mouse-shadow)) var(--mouse-shadow) #000;
